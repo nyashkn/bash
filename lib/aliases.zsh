@@ -22,5 +22,7 @@ alias ll='ls -l'
 alias la='ls -lA'
 alias sl=ls # often screw this up
 
-alias afind='ack-grep -il'
-
+alias afind='ack -il'
+alias szsh='source ~/.zshrc'
+alias bes0="bundle exec sidekiq -q user, -q mailer, -q group, -q tran"
+alias bes1="bundle exec sidekiq -q membership, -q payable, -q account, -q default"
